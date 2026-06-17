@@ -49,7 +49,8 @@ requests. If outputs are missing, the PR must fail.
 
 - External pull requests are supported.
 - Contributors may submit publish-ready updates directly in resources/.
-- Raw payloads in intake/raw/ are optional and typically local-only.
+- Contributors may drop raw files in intake/raw/ and open a PR for maintainer processing.
+- Raw payloads in intake/raw/ are tracked and committable in contributor PRs.
 - High-risk submissions require manual approval.
 
 ## Risk Gate Rules

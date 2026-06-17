@@ -9,11 +9,13 @@ External pull requests are supported for both new resources and updates.
 1. Fork the repository.
 2. Create a branch for your change.
 3. Choose one contribution path:
-	- Publish-ready: use the ingest-resource skill, then update resources/ and catalog/resource-index.yaml.
-	- Review-first: use the ingest-resource skill to stage candidate content in intake/normalized/.
+	- **Publish-ready**: use the ingest-resource skill, then update resources/ and catalog/resource-index.yaml.
+	- **Review-first**: use the ingest-resource skill to stage candidate content in intake/normalized/.
+	- **Raw drop**: add your source files to intake/raw/ and open a PR — a maintainer will run the ingest-resource skill on your files.
 4. Open a pull request using the repository PR template.
 
 The ingest-resource skill generates the governance manifest for you.
+For raw-drop PRs, the maintainer generates it during processing.
 
 ## Preferred Workflow
 

@@ -1,9 +1,6 @@
-# Intake raw payloads are not tracked by default.
-intake/raw/**
-
-# Keep folder scaffolding and policy docs in git.
-!intake/raw/.gitkeep
-!intake/raw/README.md
+# Intake raw payloads are not ignored — contributors may commit files here in PRs.
+# Local users who do not want to commit raw files can add a personal
+# .git/info/exclude entry: intake/raw/**
 
 # Python bytecode
 __pycache__/
