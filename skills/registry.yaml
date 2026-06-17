@@ -1,0 +1,20 @@
+version: 1
+default_sequence:
+  - ingest-resource
+  - validate-catalog
+
+skills:
+  - name: ingest-resource
+    path: skills/ingest-resource/SKILL.md
+    purpose: Normalize new or updated source material into publish-ready candidates.
+    required_for:
+      - add-resource
+      - update-resource
+
+  - name: validate-catalog
+    path: skills/validate-catalog/SKILL.md
+    purpose: Validate metadata, index consistency, and policy gates before publication.
+    required_for:
+      - add-resource
+      - update-resource
+      - publish-resource

@@ -1,0 +1,10 @@
+# Intake raw payloads are not tracked by default.
+intake/raw/**
+
+# Keep folder scaffolding and policy docs in git.
+!intake/raw/.gitkeep
+!intake/raw/README.md
+
+# Python bytecode
+__pycache__/
+*.pyc

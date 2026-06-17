@@ -1,0 +1,74 @@
+version: 1
+generated_at: "2026-06-17"
+notes:
+  - "This index is the primary machine-readable entry point for AI agents."
+  - "Resources are stored tool-first on disk but should be retrieved task-first via task_tags."
+
+resources:
+  - id: copilot-powershell-instructions
+    title: PowerShell Cmdlet Development Guidelines
+    summary: PowerShell authoring and cmdlet best-practice instructions for GitHub Copilot usage.
+    tool: GitHub Copilot
+    task_tags:
+      - powershell
+      - prompt-instructions
+      - code-quality
+    last_reviewed: "2026-06-17"
+    path: resources/GitHub Copilot/Instructions/powershell.instructions.md
+
+  - id: copilot-markdown-instructions
+    title: Markdown Documentation and Formatting Guide
+    summary: Markdown authoring standards aligned with markdownlint and CommonMark.
+    tool: GitHub Copilot
+    task_tags:
+      - markdown
+      - prompt-instructions
+      - documentation
+    last_reviewed: "2026-06-17"
+    path: resources/GitHub Copilot/Instructions/markdown.instructions.md
+
+  - id: copilot-docker-instructions
+    title: Containerization and Docker Best Practices
+    summary: Guidance for efficient, secure, and reproducible container images and runtimes.
+    tool: GitHub Copilot
+    task_tags:
+      - docker
+      - containerization
+      - prompt-instructions
+    last_reviewed: "2026-06-17"
+    path: resources/GitHub Copilot/Instructions/dockerfile.instructions.md
+
+  - id: copilot-pester-instructions
+    title: PowerShell Pester v5 Testing Guidelines
+    summary: Testing guidelines for building reliable PowerShell Pester v5 test suites.
+    tool: GitHub Copilot
+    task_tags:
+      - powershell
+      - testing
+      - pester
+    last_reviewed: "2026-06-17"
+    path: resources/GitHub Copilot/Instructions/pester.instructions.md
+
+  - id: vscode-powershell-project-settings
+    title: VS Code Settings for PowerShell Projects
+    summary: Recommended VS Code workspace settings for PowerShell development.
+    tool: VS Code
+    task_tags:
+      - editor-setup
+      - powershell
+      - developer-experience
+    last_reviewed: "2026-06-17"
+    path: resources/GitHub Copilot/VS Code complementary settings/PowerShell Projects/settings.json
+    metadata_path: resources/GitHub Copilot/VS Code complementary settings/PowerShell Projects/settings.json.meta.yaml
+
+  - id: vscode-powershell-project-extensions
+    title: VS Code Extension Recommendations for PowerShell Projects
+    summary: Recommended extension list for PowerShell-focused project environments.
+    tool: VS Code
+    task_tags:
+      - editor-setup
+      - extensions
+      - powershell
+    last_reviewed: "2026-06-17"
+    path: resources/GitHub Copilot/VS Code complementary settings/PowerShell Projects/extensions.json
+    metadata_path: resources/GitHub Copilot/VS Code complementary settings/PowerShell Projects/extensions.json.meta.yaml

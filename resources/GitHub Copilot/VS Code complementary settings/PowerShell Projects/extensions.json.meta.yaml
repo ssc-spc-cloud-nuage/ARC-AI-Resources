@@ -1,0 +1,10 @@
+id: vscode-powershell-project-extensions
+title: VS Code Extension Recommendations for PowerShell Projects
+summary: Recommended extension list for PowerShell-focused project environments.
+tool: VS Code
+task_tags:
+  - editor-setup
+  - extensions
+  - powershell
+last_reviewed: '2026-06-17'
+metadata_for: resources/GitHub Copilot/VS Code complementary settings/PowerShell Projects/extensions.json

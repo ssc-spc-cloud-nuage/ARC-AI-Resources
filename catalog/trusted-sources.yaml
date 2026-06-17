@@ -1,0 +1,13 @@
+version: 1
+description: External source allowlist used by ingestion risk gates.
+
+trusted_orgs:
+  - canada.ca
+  - github.com/gccloudone
+  - github.com/GoogleCloudPlatform
+  - github.com/microsoft
+
+trusted_repos:
+  - github.com/GoogleCloudPlatform/knowledge-catalog
+  - github.com/ScottSyms/CANAgent
+  - github.com/gccloudone/artifacts-artefacts

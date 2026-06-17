@@ -1,0 +1,10 @@
+id: vscode-powershell-project-settings
+title: VS Code Settings for PowerShell Projects
+summary: Recommended VS Code workspace settings for PowerShell development.
+tool: VS Code
+task_tags:
+  - editor-setup
+  - powershell
+  - developer-experience
+last_reviewed: '2026-06-17'
+metadata_for: resources/GitHub Copilot/VS Code complementary settings/PowerShell Projects/settings.json

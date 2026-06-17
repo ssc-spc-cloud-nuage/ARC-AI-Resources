@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "defaultSequence": [
+    "ingest-resource",
+    "validate-catalog"
+  ],
+  "documents": {
+    "agent": "AGENT.md",
+    "agents": "AGENTS.md",
+    "copilot": ".github/copilot-instructions.md",
+    "registry": "skills/registry.yaml"
+  },
+  "skills": [
+    {
+      "name": "ingest-resource",
+      "path": "skills/ingest-resource/SKILL.md"
+    },
+    {
+      "name": "validate-catalog",
+      "path": "skills/validate-catalog/SKILL.md"
+    }
+  ]
+}
