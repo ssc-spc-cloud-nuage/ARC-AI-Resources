@@ -92,12 +92,25 @@ or the pending review state).
 
 Do not delete intake/manifests/ entries — they are the permanent audit record.
 
+### Step 8 — Open a pull request
+
+All ingest changes must land via PR — never commit directly to main.
+
+1. Create a branch named `ingest/<batch_id>` (e.g. `ingest/2026-06-17-canchat-overview-001`).
+2. Commit all batch files to that branch: the manifest, any new/updated resource files, and the catalog update.
+3. Open a PR against `main` with:
+   - Title: `feat(ingest): <resource title>`
+   - Body: summary, list of changed files, resource metadata (tool, audience, sensitivity, risk gate result), and the required-outputs checklist.
+4. Do not delete intake/raw/ or intake/normalized/ files until the PR is merged.
+
 ## Output
 
+- Branch `ingest/<batch_id>` pushed to origin
+- Open PR against main
 - Committed manifest at intake/manifests/<batch_id>.yaml
 - Published or staged resource files
 - Updated catalog/resource-index.yaml (draft or final)
-- intake/raw/ and intake/normalized/ cleared of processed files
+- intake/raw/ and intake/normalized/ cleared of processed files (after merge)
 - Publication recommendation: approved_low_risk or approval_required
 - Validation notes for follow-up
 
