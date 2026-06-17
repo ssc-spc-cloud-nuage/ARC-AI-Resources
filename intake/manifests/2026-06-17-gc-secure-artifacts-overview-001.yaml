@@ -1,0 +1,27 @@
+batch_id: 2026-06-17-gc-secure-artifacts-overview-001
+submitted_at: "2026-06-17T00:00:00Z"
+submitted_by: bernardmaltais
+source_description: >
+  Public GitHub repository for GC Secure Artifacts (gccloudone/artifacts-artefacts).
+  Content fetched from https://github.com/gccloudone/artifacts-artefacts/ on 2026-06-17.
+
+file_names:
+  - gc-secure-artifacts-overview.md
+
+file_hashes_sha256:
+  gc-secure-artifacts-overview.md: fetched-from-url-no-local-file
+
+sensitivity_classification: public
+license_status: open-source (GC public repository under gccloudone org)
+intended_audience:
+  - gc-developers
+  - platform-admins
+  - gc-ai-users
+
+review_decision: approved
+reviewer: bernardmaltais
+publication_recommendation: approved_low_risk
+notes: >
+  Source is gccloudone which is in catalog/trusted-sources.yaml.
+  No policy flags. Public sensitivity. Open-source GC repo.
+  Content ingested directly from URL — no local raw file.

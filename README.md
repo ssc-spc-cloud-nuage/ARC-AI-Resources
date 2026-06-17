@@ -25,6 +25,12 @@ Ready-to-use workspace configuration files for VS Code projects.
 | [VS Code Settings for PowerShell Projects](resources/GitHub%20Copilot/VS%20Code%20complementary%20settings/PowerShell%20Projects/settings.json) | editor-setup, powershell |
 | [VS Code Extension Recommendations for PowerShell Projects](resources/GitHub%20Copilot/VS%20Code%20complementary%20settings/PowerShell%20Projects/extensions.json) | extensions, powershell |
 
+### GC Secure Artifacts — Platform Services
+
+| Resource | Task tags |
+|----------|-----------|
+| [GC Secure Artifacts Overview](resources/GC%20Secure%20Artifacts/gc-secure-artifacts-overview.md) | artifact-management, container-security, devsecops, software-supply-chain |
+
 ## Contributing
 
 Want to add or update a resource? See [docs/contributing.md](docs/contributing.md).

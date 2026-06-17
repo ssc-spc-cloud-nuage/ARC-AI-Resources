@@ -72,3 +72,21 @@ resources:
     last_reviewed: "2026-06-17"
     path: resources/GitHub Copilot/VS Code complementary settings/PowerShell Projects/extensions.json
     metadata_path: resources/GitHub Copilot/VS Code complementary settings/PowerShell Projects/extensions.json.meta.yaml
+
+  - id: gc-secure-artifacts-overview
+    title: GC Secure Artifacts — Centralized Artifact Management for the Government of Canada
+    summary: >
+      SSC-hosted centralized artifact registry built on JFrog Enterprise+, available to all
+      federal departments. Provides secure container images via Chainguard, vulnerability
+      scanning via JFrog Xray, and CI/CD integration for Python, Java, Node.js, .NET, and
+      PowerShell stacks.
+    tool: GC Secure Artifacts
+    task_tags:
+      - artifact-management
+      - container-security
+      - devsecops
+      - software-supply-chain
+      - chainguard
+      - jfrog
+    last_reviewed: "2026-06-17"
+    path: resources/GC Secure Artifacts/gc-secure-artifacts-overview.md
