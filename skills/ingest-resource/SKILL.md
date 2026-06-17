@@ -83,6 +83,18 @@ If none, set to approved_low_risk.
 If approved_low_risk, add a draft entry to catalog/resource-index.yaml with the
 target path in resources/.
 
+### Step 6b — Update README.md
+
+Add the new resource to the `## Available Resources` section of README.md.
+
+- If a matching tool group heading already exists, add a row to its table.
+- If no matching heading exists, create a new `### <Tool> — <category>` subsection with a table.
+- Include a one-line description of the tool group when creating a new section.
+- Use the same title and task_tags from the catalog entry.
+- Use URL-encoded relative paths for links (e.g., `resources/CANChat/canchat-overview.md`).
+
+The README is the human-facing entry point. Every published resource must appear here.
+
 ### Step 7 — Clean up transitory files
 
 Delete all files in intake/raw/ that were processed in this batch.
@@ -110,6 +122,7 @@ All ingest changes must land via PR — never commit directly to main.
 - Committed manifest at intake/manifests/<batch_id>.yaml
 - Published or staged resource files
 - Updated catalog/resource-index.yaml (draft or final)
+- Updated README.md with new resource entry
 - intake/raw/ and intake/normalized/ cleared of processed files (after merge)
 - Publication recommendation: approved_low_risk or approval_required
 - Validation notes for follow-up

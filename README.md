@@ -31,6 +31,14 @@ Ready-to-use workspace configuration files for VS Code projects.
 |----------|-----------|
 | [GC Secure Artifacts Overview](resources/GC%20Secure%20Artifacts/gc-secure-artifacts-overview.md) | artifact-management, container-security, devsecops, software-supply-chain |
 
+### CANChat — SSC Generative AI Chatbot
+
+SSC's GC-approved AI chatbot for everyday unclassified work. Hosted within the GC/SSC environment, aligned with Canadian data sovereignty and GC policy requirements.
+
+| Resource | Task tags |
+|----------|-----------|
+| [CANChat Overview](resources/CANChat/canchat-overview.md) | ai-assistant, generative-ai, drafting, summarization, research, productivity, responsible-ai |
+
 ## Contributing
 
 Want to add or update a resource? See [docs/contributing.md](docs/contributing.md).
