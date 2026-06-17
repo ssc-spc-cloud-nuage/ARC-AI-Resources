@@ -1,0 +1,34 @@
+batch_id: 2026-06-17-canchat-overview-001
+submitted_at: "2026-06-17T00:00:00Z"
+submitted_by: bernardmaltais
+source_description: >
+  Content derived from public canada.ca pages on CANChat (SSC generative AI chatbot).
+  Source URLs:
+  - https://www.canada.ca/en/shared-services/services/gc-ai/canchat.html
+  - https://www.canada.ca/en/shared-services/campaigns/stories/canchat-ssc-first-generative-ai-chatbot.html
+  Normalized from inline content provided on 2026-06-17. No local raw file.
+
+file_names:
+  - canchat-overview.md
+
+file_hashes_sha256:
+  canchat-overview.md: bf5636c544ee626775341803b214da0c3746a06011f924bbb5b1e87552e98e41
+
+sensitivity_classification: public
+license_status: open-government-licence-canada
+intended_audience:
+  - gc-ai-users
+  - gc-employees
+
+gc_policy_tags: []
+
+review_decision: approved
+reviewer: bernardmaltais
+publication_recommendation: approved_low_risk
+notes: >
+  Sources are canada.ca which is in catalog/trusted-sources.yaml.
+  No policy flags. Public sensitivity. Open Government Licence - Canada.
+  Responsible use guidance is included (unclassified only, no personal data),
+  but this is usage guidance — not a security policy document.
+  Internal SSC SharePoint links excluded from published resource (not publicly accessible).
+  Content ingested directly from inline input — no local raw file.

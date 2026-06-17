@@ -90,3 +90,22 @@ resources:
       - jfrog
     last_reviewed: "2026-06-17"
     path: resources/GC Secure Artifacts/gc-secure-artifacts-overview.md
+
+  - id: canchat-overview
+    title: CANChat — SSC Generative AI Chatbot for Government of Canada Employees
+    summary: >
+      CANChat is a generative AI chatbot built by Shared Services Canada (SSC) for GC
+      employees. It supports unclassified productivity tasks such as drafting content,
+      summarizing documents, and conducting research, while aligning with GC data
+      sovereignty and policy requirements.
+    tool: CANChat
+    task_tags:
+      - ai-assistant
+      - generative-ai
+      - drafting
+      - summarization
+      - research
+      - productivity
+      - responsible-ai
+    last_reviewed: "2026-06-17"
+    path: resources/CANChat/canchat-overview.md
