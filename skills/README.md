@@ -18,5 +18,5 @@ Canonical repository maintenance skills live here.
 
 ## Discovery
 
-Agent discovery entrypoints are provided in AGENT.md, AGENTS.md,
+Agent discovery entrypoints are provided in AGENTS.md,
 .github/copilot-instructions.md, and .well-known/agent-skills.json.

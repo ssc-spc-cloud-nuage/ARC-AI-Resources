@@ -18,4 +18,4 @@ This repository uses skill-driven maintenance for content updates.
 - catalog/resource-index.yaml updated when resources/ changes
 - required metadata fields present for changed resources
 
-For complete behavior and guardrails, follow AGENT.md and AGENTS.md.
+For complete behavior and guardrails, follow AGENTS.md.

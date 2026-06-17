@@ -5,7 +5,6 @@
     "validate-catalog"
   ],
   "documents": {
-    "agent": "AGENT.md",
     "agents": "AGENTS.md",
     "copilot": ".github/copilot-instructions.md",
     "registry": "skills/registry.yaml"

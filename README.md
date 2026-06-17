@@ -47,7 +47,7 @@ See [.github/pull_request_template.md](.github/pull_request_template.md) for the
 
 ## For AI Agents
 
-AI agents should start with [AGENT.md](AGENT.md) and [AGENTS.md](AGENTS.md).
+AI agents should start with [AGENTS.md](AGENTS.md).
 
 Use `catalog/resource-index.yaml` for machine-readable discovery.
 Use `skills/ingest-resource/SKILL.md` and `skills/validate-catalog/SKILL.md` for content workflows.
@@ -63,7 +63,6 @@ Use `skills/ingest-resource/SKILL.md` and `skills/validate-catalog/SKILL.md` for
 ```text
 /
 |- README.md
-|- AGENT.md
 |- AGENTS.md
 |- .gitignore
 |- .well-known/
@@ -85,7 +84,6 @@ Use `skills/ingest-resource/SKILL.md` and `skills/validate-catalog/SKILL.md` for
 
 The same two canonical skills are exposed through multiple discovery entrypoints:
 
-- AGENT.md
 - AGENTS.md
 - .github/copilot-instructions.md
 - skills/registry.yaml
