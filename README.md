@@ -46,8 +46,6 @@ Want to add or update a resource? See [docs/contributing.md](docs/contributing.m
 Three paths are supported:
 
 1. **Raw drop** — add source files to `intake/raw/` and open a PR. A maintainer runs the ingest-resource skill to process them.
-2. **Publish-ready PR** — add files to `resources/` with required metadata and update `catalog/resource-index.yaml`.
-3. **Review-first PR** — add candidate files to `intake/normalized/` for maintainer review before publication.
 
 The ingest-resource skill generates the governance manifest automatically when you run it.
 See [.github/pull_request_template.md](.github/pull_request_template.md) for the PR checklist.
